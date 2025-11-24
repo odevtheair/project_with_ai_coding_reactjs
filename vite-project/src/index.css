@@ -19,8 +19,8 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  color: #e0e0e0;
-  background-color: #0f0f1e;
+  color: #f1f5f9;
+  background-color: #0f172a;
 }
 
 #root {
@@ -33,14 +33,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a2e;
+  background: #1e293b;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2d2d44;
+  background: #475569;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3d3d5c;
+  background: #64748b;
 }
