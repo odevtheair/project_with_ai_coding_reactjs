@@ -1,0 +1,114 @@
+ต้องการเขียน code โปรเจค reactjs
+
+fullstack-mvc-project/
+│
+├── backend/                          # Backend API
+│   ├── config/                       # Configuration
+│   │   ├── database.js              # Database configuration
+│   │   └── config.js                # App configuration
+│   │
+│   ├── models/                       # Models (จัดการข้อมูล)
+│   │   ├── User.js                  # User Model
+│   │   └── BaseModel.js             # Base Model class
+│   │
+│   ├── controllers/                  # Controllers (ประมวลผล)
+│   │   ├── authController.js        # Authentication logic
+│   │   └── userController.js        # User management
+│   │
+│   ├── views/                        # Views (Response format)
+│   │   └── responseFormatter.js     # Format API responses
+│   │
+│   ├── routes/                       # Routes (กำหนดเส้นทาง)
+│   │   ├── authRoutes.js
+│   │   └── userRoutes.js
+│   │
+│   ├── middleware/                   # Middleware
+│   │   ├── authMiddleware.js
+│   │   └── validationMiddleware.js
+│   │
+│   ├── utils/                        # Utilities
+│   │   ├── validator.js
+│   │   └── logger.js
+│   │
+│   ├── .env                          # Environment variables
+│   ├── server.js                     # Entry point
+│   └── package.json
+│
+└── frontend/                         # Frontend (React)
+    ├── src/
+    │   ├── models/                   # Models (Data structures)
+    │   │   └── UserModel.js
+    │   │
+    │   ├── views/                    # Views (UI Components)
+    │   │   ├── pages/
+    │   │   │   ├── LoginPage.jsx
+    │   │   │   ├── RegisterPage.jsx
+    │   │   │   └── DashboardPage.jsx
+    │   │   └── components/
+    │   │       ├── LoginForm.jsx
+    │   │       └── UserCard.jsx
+    │   │
+    │   ├── controllers/              # Controllers (Business Logic)
+    │   │   ├── AuthController.js
+    │   │   └── UserController.js
+    │   │
+    │   ├── services/                 # Services (API calls)
+    │   │   ├── api.js
+    │   │   └── authService.js
+    │   │
+    │   ├── context/                  # State Management
+    │   │   └── AuthContext.jsx
+    │   │
+    │   ├── routes/                   # Routing
+    │   │   └── AppRoutes.jsx
+    │   │
+    │   ├── utils/                    # Utilities
+    │   │   └── validation.js
+    │   │
+    │   ├── App.jsx
+    │   └── main.jsx
+    │
+    └── package.json
+
+
+
+ต้องการเขียน code โปรเจค reactjs โดยใช้ vite กับ nodejs14
+
+Backend (Node.js + Express + JWT + MySQL)
+
+✅ Server configuration พร้อม CORS
+✅ MySQL database connection
+✅ JWT Authentication middleware
+✅ User registration และ login system
+✅ Password hashing ด้วย bcrypt
+✅ Protected API routes
+✅ Environment variables configuration
+
+Frontend (React + Vite)
+
+✅ Modern React 18 setup ด้วย Vite
+✅ React Router สำหรับ navigation
+✅ Authentication Context API
+✅ Protected routes
+✅ Login page พร้อม form validation
+✅ Register page
+✅ Dashboard page (protected)
+✅ Responsive UI design
+✅ Axios สำหรับ API calls
+
+1.แสดงตัวอย่าง full code frontend ทั้งหมดให้ฉันดู 
+2.แสดงตัวอย่าง full code backend ทั้งหมดให้ฉันดู 
+3.สร้าง full code ทั้ง frontend และ backend  แบบ mvc  ให้ดูเข้าใจง่าย และใช้งานยืดหยุ่น
+
+
+อยากให้ผมทำอะไรต่อไหม? ตัวเลือกตัวอย่าง:
+
+สร้างไฟล์เป็น zip ให้ดาวน์โหลด,
+
+เปลี่ยน DB เป็น Postgres / Mongo,
+
+เพิ่ม refresh token / httpOnly cookie flow,
+
+แปลงเป็น TypeScript, หรือ
+
+เพิ่ม role-based authorization (admin/user)
