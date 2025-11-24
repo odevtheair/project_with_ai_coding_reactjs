@@ -3,14 +3,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   padding: 20px;
 }
 
 .pin-card {
-  background: white;
+  background: #1e1e2f;
+  border: 1px solid #2d2d44;
   border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   padding: 40px;
   width: 100%;
   max-width: 450px;
@@ -22,19 +23,19 @@
 }
 
 .pin-header h1 {
-  color: #333;
+  color: #e0e0e0;
   font-size: 28px;
   margin-bottom: 8px;
   font-weight: 600;
 }
 
 .pin-header p {
-  color: #666;
+  color: #a0a0a0;
   font-size: 14px;
 }
 
 .pin-info {
-  background: #f0f4ff;
+  background: rgba(102, 126, 234, 0.1);
   border-left: 4px solid #667eea;
   padding: 12px 16px;
   border-radius: 8px;
@@ -43,7 +44,7 @@
 }
 
 .pin-info p {
-  color: #555;
+  color: #b0b0c0;
   font-size: 13px;
   margin: 0;
 }
@@ -61,45 +62,49 @@
   text-align: center;
   font-size: 24px;
   font-weight: 600;
-  border: 2px solid #ddd;
+  border: 2px solid #3d3d5c;
   border-radius: 8px;
+  background: #252538;
+  color: #e0e0e0;
   transition: all 0.3s ease;
   outline: none;
 }
 
 .pin-input:focus {
   border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+  background: #2a2a40;
 }
 
 .pin-input.filled {
-  background: #f0f4ff;
+  background: rgba(102, 126, 234, 0.15);
   border-color: #667eea;
 }
 
 .pin-input:disabled {
-  background: #f5f5f5;
+  background: #1a1a28;
   cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .error-message {
-  background: #fee;
-  color: #c33;
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
   padding: 12px 16px;
   border-radius: 8px;
   font-size: 14px;
   margin-bottom: 20px;
-  border-left: 4px solid #c33;
+  border-left: 4px solid #ef4444;
 }
 
 .success-message {
-  background: #efe;
-  color: #3c3;
+  background: rgba(34, 197, 94, 0.1);
+  color: #4ade80;
   padding: 12px 16px;
   border-radius: 8px;
   font-size: 14px;
   margin-bottom: 20px;
-  border-left: 4px solid #3c3;
+  border-left: 4px solid #22c55e;
 }
 
 .verify-button {
@@ -130,8 +135,8 @@
   width: 100%;
   padding: 12px;
   background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #818cf8;
+  border: 2px solid #818cf8;
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
@@ -140,12 +145,12 @@
 }
 
 .back-button:hover:not(:disabled) {
-  background: #667eea;
-  color: white;
+  background: #818cf8;
+  color: #1e1e2f;
 }
 
 .back-button:disabled {
-  opacity: 0.6;
+  opacity: 0.4;
   cursor: not-allowed;
 }
 
